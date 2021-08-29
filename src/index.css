@@ -34,11 +34,11 @@
 
 h1 {
   color: #fff;
-  background: transparent;
+  /* background: transparent; */
   background-color: #8566aa;
   padding: 6px 0 2px 0;
   margin: 10px 0;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
 }
 
 input {
@@ -62,14 +62,16 @@ button {
   border: none;
   color: #fff;
   background: transparent;
-  background-color: #8566aa;
+  background-color: #20bf6b;
   font-size: 40px;
-  margin-left: 10px;
+  margin-left: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease;
 }
 
 button:hover {
-  background-color: #20bf6b;
+  color: #20bf6b;
+  background: #fff;
 }
 
 ol {
@@ -79,9 +81,9 @@ ol {
 
 ol li {
   margin-bottom: 10px;
-  padding-left: 0px;
+  /* padding-left: 0px; */
   text-align: left;
-  font-size: 20px;
+  font-size: 18 px;
   font-weight: 500;
   min-height: 40px;
   display: flex;
@@ -103,16 +105,17 @@ ol li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8566aa;
+  background-color: crimson;
   border-radius: 50%;
-  margin: 0 15px 0 35px;
+  margin: 10px;
+  padding: 5px;
   color: aliceblue;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
 }
 
 .toDoStyle .fa-times:hover {
-  color: #fff;
-  background-color: crimson;
+  background: #fff;
+  color: crimson;
 }
 
 @media (max-width: 1200px) {
